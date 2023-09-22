@@ -1,0 +1,12 @@
+body{
+    position: relative;
+}
+
+
+.blob{
+    width: 10rem;
+    height: 11rem;
+    position: absolute;
+    top: 14rem;
+    
+}
