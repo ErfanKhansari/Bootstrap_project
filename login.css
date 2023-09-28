@@ -1,5 +1,69 @@
 body{
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-
+.form{
+    min-width: 25rem;
+    background-color: rgb(0, 2, 22);
+    padding: 3.5rem 2rem ;
+    border-radius: 13% 87% 70% 30% / 70% 70% 30% 30%;
+    width: 20rem;
+    height: 20rem;
+    background: #ad5389;
+    background: -webkit-linear-gradient(to right,
+        #3c1053,
+        #ad5389);
+    background: linear-gradient(to right,
+        #3c1053,
+        #ad5389);
+  
+    
+    
+}
+.mail-label{
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: .5rem;
+}
+.small-hint{
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+}
+.pass-label{
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: .5rem;
+}
+.Remember{
+    color: rgb(255, 255, 255);
+    display: inline;
+    
+}
+.check-input{
+    display: block;
+}
+.pass-input{
+    margin-bottom: .5rem;
+}
+.dislog{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-color: #b90fc9;
+    display: block;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+}
+.login:hover{
+    color: white;
+    background-color:#560079 ;
+}
