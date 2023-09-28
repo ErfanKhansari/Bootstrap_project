@@ -1,42 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
-    <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"defer></script>
-    <link rel="stylesheet" href="./login.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="./login.css">
+
 </head>
-<body >
-    <div class="container">
-        <div class="row ">
-            <div class="col">
-                <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-                  <div  class="card " style="width: 28rem;">
-                    <div class="card-body bg-dark rounded-3">
-                        <form>
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label text-light ">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
-                            </div>
-                            <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label text-light">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label text-light" for="exampleCheck1">Remember me</label>
-                            </div>
-                            <div style="display: flex; justify-content: center;"><button type="submit" class="btn btn-primary">Login</button></div>
-                          </form>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<body style="background-image: url(./assets/img/prple.jpg);">
+  
+  <div class="parent">
+    <div class="form">
+      <label for="email" class="mail-label">Email address</label>
+      <input type="email" class="mail-input">
+      <p class="small-hint">We`ll never share your email address with anyone else.</p>
+      <label for="password" class="pass-label">Password</label>
+      <input type="password" class="pass-input">
+      <input type="checkbox" class="check-input">
+      <p class="Remember">Remember me</p>
+     <div class="dislog"> <button class="login">Login</button></div>
+   </div>
+  </div>
 </body>
+
 </html>
